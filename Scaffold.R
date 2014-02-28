@@ -45,3 +45,7 @@ heatmap.2(as.matrix(depvs[,2:50]), dendrogram="col",col=redgreen(75),cexRow=0.9,
 rownames(depvs)<-depvs[,1]
 pheatmap(as.matrix(depvs[,2:50]),show_rownames=T,color = colorRampPalette(c("navy", "white", "firebrick3"))(50))
 
+
+##########
+rownames(data)<-data[,1]
+da
