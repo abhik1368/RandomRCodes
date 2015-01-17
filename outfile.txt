@@ -1,0 +1,6807 @@
+<iframe srcdoc=' &lt;!doctype HTML&gt;
+&lt;meta charset = &#039;utf-8&#039;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#039;stylesheet&#039; href=&#039;http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css&#039;&gt;
+    
+    &lt;script src=&#039;http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;https://rawgithub.com/leaflet-extras/leaflet-providers/gh-pages/leaflet-providers.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;http://harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;style&gt;
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 1600px;
+      height: 800px;
+    }  
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body &gt;
+    
+    &lt;div id = &#039;charta6193b2e76b6&#039; class = &#039;rChart leaflet&#039;&gt;&lt;/div&gt;    
+    &lt;script&gt;
+  var spec = {
+ &quot;dom&quot;: &quot;charta6193b2e76b6&quot;,
+&quot;width&quot;:           1600,
+&quot;height&quot;:            800,
+&quot;urlTemplate&quot;: &quot;http://{s}.tile.osm.org/{z}/{x}/{y}.png&quot;,
+&quot;layerOpts&quot;: {
+ &quot;attribution&quot;: &quot;Map data&lt;a href=\&quot;http://openstreetmap.org\&quot;&gt;OpenStreetMap&lt;/a&gt;\n         contributors, Imagery&lt;a href=\&quot;http://mapbox.com\&quot;&gt;MapBox&lt;/a&gt;&quot; 
+},
+&quot;center&quot;: [      33.320731,      -14.03399 ],
+&quot;zoom&quot;:              2,
+&quot;provider&quot;: &quot;Stamen.Toner&quot;,
+&quot;id&quot;: &quot;charta6193b2e76b6&quot; 
+}
+
+  var map = L.map(spec.dom, spec.mapOpts)
+  
+    map.setView(spec.center, spec.zoom);
+
+    if (spec.provider){
+      L.tileLayer.provider(spec.provider).addTo(map)    
+    } else {
+		  L.tileLayer(spec.urlTemplate, spec.layerOpts).addTo(map)
+    }
+     
+    L
+  .marker([
+ -22.756,
+-43.461 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ -30.035,
+-51.218 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ -30.035,
+-51.218 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ -12.972,
+-38.501 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ -23.551,
+-46.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ 48.731,
+2.4475 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00822315&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00834353&quot;)
+L
+  .marker([
+ -0.82763,
+37.233 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ 0.20296,
+35.098 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -0.091702,
+34.768 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.063,
+34.478 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.063,
+34.478 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ 27.042,
+88.834 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -0.3031,
+ 36.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -0.3031,
+ 36.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -1.0833,
+35.867 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00850915&quot;)
+L
+  .marker([
+ -3.3349,
+ 37.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00851630&quot;)
+L
+  .marker([
+ 38.985,
+-77.095 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00858611&quot;)
+L
+  .marker([
+ 39.904,
+116.41 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  31.23,
+121.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 39.084,
+ 117.2 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.912,
+75.787 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.912,
+75.787 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 27.177,
+78.008 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 27.177,
+78.008 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+   27.9,
+ 78.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+   27.9,
+ 78.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 27.159,
+78.396 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 27.159,
+78.396 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.669,
+77.454 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.669,
+77.454 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  26.45,
+80.332 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  26.45,
+80.332 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  26.45,
+80.332 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.847,
+80.947 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.847,
+80.947 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.847,
+80.947 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 26.847,
+80.947 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.984,
+77.706 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.984,
+77.706 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.984,
+77.706 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.984,
+77.706 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.832,
+78.778 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.832,
+78.778 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  3.139,
+101.69 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+  20.66,
+-103.35 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -25.61,
+27.796 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+   -8.9,
+ 33.45 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -3.3349,
+ 37.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 16.432,
+102.82 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 13.862,
+100.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ -15.417,
+28.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864383&quot;)
+L
+  .marker([
+ 37.503,
+126.77 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+   36.8,
+ 127.7 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+   36.8,
+ 127.7 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 36.518,
+ 126.8 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.414,
+127.52 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+  35.18,
+128.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.264,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.738,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ 37.342,
+127.92 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00864812&quot;)
+L
+  .marker([
+ -24.658,
+25.912 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -24.407,
+25.495 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -22.878,
+-43.252 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+  18.52,
+73.857 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+  18.52,
+73.857 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -13.983,
+33.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ 32.716,
+-117.16 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ -17.864,
+ 31.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00865826&quot;)
+L
+  .marker([
+ 38.982,
+-94.671 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00866190&quot;)
+L
+  .marker([
+ 41.308,
+-72.928 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00871949&quot;)
+L
+  .marker([
+ 37.775,
+-122.42 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00877591&quot;)
+L
+  .marker([
+ -33.967,
+ 22.45 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910806&quot;)
+L
+  .marker([
+ 39.904,
+116.41 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 26.075,
+ 119.3 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 36.651,
+117.12 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+  32.06,
+ 118.8 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+  31.23,
+121.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 59.437,
+24.754 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 58.378,
+26.729 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ -1.2921,
+36.822 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 37.264,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ -12.051,
+-77.126 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 14.676,
+121.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 64.547,
+ 40.56 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 55.756,
+37.617 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 48.745,
+2.4014 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ -37.95,
+   145 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 8.4304,
+99.963 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 13.862,
+100.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 41.005,
+28.977 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 39.979,
+32.871 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 48.016,
+37.803 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+  50.45,
+30.523 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+ 46.483,
+30.723 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00910871&quot;)
+L
+  .marker([
+   6.75,
+38.417 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00913172&quot;)
+L
+  .marker([
+ 44.495,
+11.343 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00915330&quot;)
+L
+  .marker([
+ 41.717,
+44.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00918086&quot;)
+L
+  .marker([
+  52.16,
+ 4.497 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00922363&quot;)
+L
+  .marker([
+ 38.985,
+-77.095 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00923351&quot;)
+L
+  .marker([
+ 38.985,
+-77.095 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00923364&quot;)
+L
+  .marker([
+ 1.3521,
+103.82 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00925535&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00926601&quot;)
+L
+  .marker([
+  52.16,
+ 4.497 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00929396&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00929786&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00929786&quot;)
+L
+  .marker([
+ 51.507,
+-0.12776 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00932854&quot;)
+L
+  .marker([
+ 13.493,
+39.479 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00939419&quot;)
+L
+  .marker([
+  48.39,
+-4.4861 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+  48.39,
+-4.4861 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.058,
+-2.7092 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.093,
+-4.3286 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.732,
+-3.4591 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 47.748,
+-3.3702 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 43.296,
+5.3698 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.578,
+-3.8282 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 47.998,
+-4.0979 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 48.514,
+-2.7658 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 43.124,
+ 5.928 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00946907&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00947609&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00947609&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00950612&quot;)
+L
+  .marker([
+ -29.883,
+-61.949 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00953927&quot;)
+L
+  .marker([
+ 41.185,
+-110.41 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00953927&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00953927&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00959088&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00959088&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00959088&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00962676&quot;)
+L
+  .marker([
+ -29.601,
+30.379 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00972699&quot;)
+L
+  .marker([
+ -3.7319,
+-38.527 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00978510&quot;)
+L
+  .marker([
+ 37.445,
+127.14 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00982969&quot;)
+L
+  .marker([
+ 41.308,
+-72.928 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00990990&quot;)
+L
+  .marker([
+ 37.775,
+-122.42 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00992069&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00992069&quot;)
+L
+  .marker([
+ 35.913,
+-79.056 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00992069&quot;)
+L
+  .marker([
+ 39.961,
+-82.999 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00992069&quot;)
+L
+  .marker([
+ 36.163,
+-86.782 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT00992069&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01002170&quot;)
+L
+  .marker([
+  52.16,
+ 4.497 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01003093&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01007396&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01012700&quot;)
+L
+  .marker([
+ 13.862,
+100.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01014481&quot;)
+L
+  .marker([
+ -26.86,
+26.632 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01017536&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01021124&quot;)
+L
+  .marker([
+ 51.507,
+-0.12776 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01033929&quot;)
+L
+  .marker([
+ 37.445,
+127.14 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01038830&quot;)
+L
+  .marker([
+ 26.847,
+80.947 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01040195&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01040611&quot;)
+L
+  .marker([
+ 39.739,
+-104.99 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+ 33.215,
+-97.133 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+ 53.175,
+5.4252 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+ 29.424,
+-98.494 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01043575&quot;)
+L
+  .marker([
+  52.52,
+13.405 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01045772&quot;)
+L
+  .marker([
+ 32.777,
+-96.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01048697&quot;)
+L
+  .marker([
+ 51.813,
+5.8372 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01051752&quot;)
+L
+  .marker([
+ 53.219,
+6.5665 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01051752&quot;)
+L
+  .marker([
+ -0.61333,
+30.658 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01053598&quot;)
+L
+  .marker([
+ 36.642,
+127.49 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.322,
+126.83 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.503,
+126.77 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.383,
+127.12 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.383,
+127.12 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 35.185,
+128.33 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.881,
+127.73 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+  35.18,
+128.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 35.214,
+128.58 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01055145&quot;)
+L
+  .marker([
+ 48.208,
+16.374 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  50.85,
+4.3517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.054,
+3.7174 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 50.633,
+5.5797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 43.417,
+24.607 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 42.698,
+23.322 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 56.163,
+10.204 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 55.642,
+12.088 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 61.498,
+23.761 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 60.452,
+22.267 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 47.338,
+0.70131 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 49.258,
+2.4784 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 36.571,
+37.148 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 50.629,
+3.0573 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 43.296,
+5.3698 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 43.636,
+ 3.854 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 47.208,
+-1.5374 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 47.218,
+-1.5536 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 44.806,
+-0.63039 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 45.703,
+4.8247 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  46.58,
+0.34037 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 49.443,
+   1.1 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 43.605,
+1.4442 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  52.52,
+13.405 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  51.05,
+13.737 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  49.59,
+11.012 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.456,
+7.0116 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 50.111,
+8.6821 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.541,
+9.9158 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 53.551,
+9.9937 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 54.323,
+10.123 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 49.199,
+8.1186 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  51.34,
+12.373 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 52.354,
+13.394 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 50.802,
+8.7668 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.961,
+7.6261 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 48.135,
+11.582 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.444,
+7.3532 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 37.984,
+23.729 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  40.64,
+22.944 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 47.532,
+21.627 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 46.253,
+20.141 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 32.084,
+34.888 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 32.085,
+34.782 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 54.899,
+23.904 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 54.687,
+ 25.28 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.813,
+5.8372 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.924,
+4.4777 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 59.914,
+10.752 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  58.97,
+5.7331 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 52.406,
+16.925 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.108,
+17.039 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.759,
+19.456 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 38.722,
+-9.1393 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 41.158,
+-8.6291 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 48.146,
+17.107 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 38.346,
+-0.49069 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 41.447,
+ 2.245 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 37.888,
+-4.7794 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 40.417,
+-3.7038 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 57.709,
+11.975 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 55.605,
+13.004 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 59.369,
+18.008 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 59.859,
+17.639 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  57.15,
+-2.0943 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.482,
+-3.1791 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 54.451,
+-6.3938 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 55.864,
+-4.2518 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 51.507,
+-0.12776 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 52.955,
+-1.1581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+ 53.488,
+-2.2901 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01059773&quot;)
+L
+  .marker([
+  18.52,
+73.857 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -15.786,
+35.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -13.983,
+33.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -33.907,
+18.601 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -3.3349,
+ 37.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -15.417,
+28.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+    -18,
+ 31.05 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+    -18,
+ 31.05 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ -17.864,
+ 31.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061151&quot;)
+L
+  .marker([
+ 48.917,
+  38.4 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01061593&quot;)
+L
+  .marker([
+ 34.747,
+113.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01071603&quot;)
+L
+  .marker([
+ 43.362,
+-8.4115 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 36.141,
+-5.4562 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 36.834,
+-2.4637 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 36.527,
+-6.2886 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.613,
+2.6536 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.626,
+-0.99658 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.888,
+-4.7794 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.936,
+-1.1631 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  43.49,
+-8.2193 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.979,
+2.8214 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.177,
+-3.5986 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.366,
+2.1165 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.261,
+-6.9447 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 38.907,
+1.4206 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  37.78,
+-3.7849 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 36.685,
+-6.1261 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  43.01,
+-7.5568 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 36.721,
+-4.4213 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  39.57,
+3.2095 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.538,
+2.4447 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.336,
+-7.8639 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  39.57,
+2.6502 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.813,
+-1.6458 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+  41.15,
+1.1055 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.878,
+-8.5448 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.389,
+-5.9845 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 37.389,
+-5.9845 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.119,
+1.2445 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.285,
+1.2495 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 49.488,
+ 16.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.241,
+-8.7207 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.241,
+-8.7207 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.241,
+-8.7207 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 41.315,
+2.0133 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01078571&quot;)
+L
+  .marker([
+ 42.376,
+-71.236 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01081717&quot;)
+L
+  .marker([
+ 42.376,
+-71.236 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01081730&quot;)
+L
+  .marker([
+ 37.322,
+126.83 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.322,
+126.83 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.503,
+126.77 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.503,
+126.77 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 36.815,
+127.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 36.815,
+127.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  36.35,
+127.38 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  36.35,
+127.38 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  36.35,
+127.38 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  36.35,
+127.38 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.658,
+126.83 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.594,
+127.13 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.594,
+127.13 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.856,
+129.22 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.948,
+126.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+   33.5,
+126.53 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+   33.5,
+126.53 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.718,
+127.15 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.824,
+127.15 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+  35.18,
+128.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.214,
+128.58 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 36.019,
+129.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.445,
+127.14 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.445,
+127.14 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.264,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.264,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.738,
+127.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.538,
+129.31 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 35.538,
+129.31 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.342,
+127.92 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01083121&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01087190&quot;)
+L
+  .marker([
+ 13.453,
+-16.578 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01098474&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01099098&quot;)
+L
+  .marker([
+ 38.369,
+34.037 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 39.921,
+32.854 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 36.884,
+30.706 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 37.848,
+27.845 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+  40.15,
+29.983 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 40.739,
+31.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 40.183,
+29.067 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 37.777,
+29.086 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 38.681,
+39.226 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+   36.2,
+36.167 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 41.005,
+28.977 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 38.419,
+27.129 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 40.853,
+29.882 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 37.867,
+32.483 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 38.619,
+27.429 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+  41.02,
+40.523 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 41.293,
+36.331 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 37.159,
+38.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+ 39.818,
+34.815 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01110564&quot;)
+L
+  .marker([
+  52.23,
+21.012 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01112631&quot;)
+L
+  .marker([
+ -29.117,
+26.217 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01113281&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01119521&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01121068&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01125839&quot;)
+L
+  .marker([
+ 24.861,
+ 67.01 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01130311&quot;)
+L
+  .marker([
+ 24.861,
+ 67.01 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01130311&quot;)
+L
+  .marker([
+ 24.861,
+ 67.01 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01130311&quot;)
+L
+  .marker([
+ 24.861,
+ 67.01 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01130311&quot;)
+L
+  .marker([
+ 55.935,
+23.314 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01131351&quot;)
+L
+  .marker([
+ 54.687,
+ 25.28 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01131351&quot;)
+L
+  .marker([
+ -29.117,
+26.217 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01136161&quot;)
+L
+  .marker([
+ -33.967,
+ 22.45 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01136161&quot;)
+L
+  .marker([
+ -33.958,
+  25.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01136161&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01137370&quot;)
+L
+  .marker([
+  50.85,
+4.3517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01142531&quot;)
+L
+  .marker([
+ 14.765,
+-17.366 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01151189&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01151189&quot;)
+L
+  .marker([
+ -6.9149,
+107.61 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01158755&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01162486&quot;)
+L
+  .marker([
+ 32.777,
+-96.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01165840&quot;)
+L
+  .marker([
+ 32.777,
+-96.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01167452&quot;)
+L
+  .marker([
+ 32.178,
+34.908 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01167647&quot;)
+L
+  .marker([
+ 55.953,
+-3.1883 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01169935&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01181856&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01188941&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01188941&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01188941&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01188941&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01190540&quot;)
+L
+  .marker([
+ 11.882,
+-15.618 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01192035&quot;)
+L
+  .marker([
+  50.85,
+4.3517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01192932&quot;)
+L
+  .marker([
+ 39.777,
+30.521 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01193439&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01193803&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01194180&quot;)
+L
+  .marker([
+ 6.2125,
+31.561 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ -0.091702,
+34.768 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ 0.062629,
+34.288 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ -25.406,
+32.807 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ -26.249,
+27.854 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01198366&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01201941&quot;)
+L
+  .marker([
+ 44.978,
+-93.265 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01214993&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01215110&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01215851&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01215851&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01218217&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01218217&quot;)
+L
+  .marker([
+ 48.917,
+  38.4 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01222338&quot;)
+L
+  .marker([
+ 41.366,
+2.1165 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01223534&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01225640&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01225640&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01231542&quot;)
+L
+  .marker([
+ 33.521,
+-86.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 35.053,
+-78.878 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 34.504,
+-93.055 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 34.746,
+-92.29 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 38.253,
+-85.758 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 23.129,
+113.26 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 47.498,
+ 19.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 47.498,
+ 19.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 47.532,
+21.627 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 46.218,
+ 20.24 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 46.647,
+21.278 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 53.132,
+23.169 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 51.246,
+22.568 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 53.778,
+ 20.48 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 50.041,
+21.999 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 50.003,
+18.472 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 64.547,
+ 40.56 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 55.164,
+61.437 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 56.839,
+60.606 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 57.005,
+40.977 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 55.756,
+37.617 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 59.934,
+30.335 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 59.934,
+30.335 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 59.934,
+30.335 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ 53.203,
+50.141 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01234038&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01241188&quot;)
+L
+  .marker([
+ 49.183,
+-122.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01242475&quot;)
+L
+  .marker([
+ 26.912,
+75.787 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01242592&quot;)
+L
+  .marker([
+ 30.733,
+76.779 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01245036&quot;)
+L
+  .marker([
+ 8.5414,
+39.269 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01252537&quot;)
+L
+  .marker([
+   8.75,
+38.983 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01252537&quot;)
+L
+  .marker([
+    8.8,
+  38.9 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01252537&quot;)
+L
+  .marker([
+  8.587,
+39.123 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01252537&quot;)
+L
+  .marker([
+ 8.6667,
+39.433 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01252537&quot;)
+L
+  .marker([
+  18.52,
+73.857 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01253538&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01253538&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01253538&quot;)
+L
+  .marker([
+ -33.907,
+18.601 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01253538&quot;)
+L
+  .marker([
+ 12.981,
+80.243 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01262976&quot;)
+L
+  .marker([
+  42.36,
+-71.059 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01266122&quot;)
+L
+  .marker([
+  42.36,
+-71.059 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01266122&quot;)
+L
+  .marker([
+ 13.083,
+80.271 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01266122&quot;)
+L
+  .marker([
+ 32.515,
+-117.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01288950&quot;)
+L
+  .marker([
+ 59.357,
+27.414 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01290081&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01299662&quot;)
+L
+  .marker([
+ -2.5167,
+  32.9 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01299948&quot;)
+L
+  .marker([
+  12.65,
+    -8 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01301144&quot;)
+L
+  .marker([
+ 14.299,
+120.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01311505&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01311999&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01322685&quot;)
+L
+  .marker([
+ 39.768,
+-86.158 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01322841&quot;)
+L
+  .marker([
+ 11.183,
+-4.2833 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 11.545,
+104.89 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 13.692,
+ 104.1 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 3.8667,
+11.517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 3.8667,
+11.517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 10.823,
+106.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 10.823,
+106.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 10.823,
+106.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01331811&quot;)
+L
+  .marker([
+ 38.627,
+-90.199 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01340820&quot;)
+L
+  .marker([
+ 41.499,
+-81.694 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01341184&quot;)
+L
+  .marker([
+ 25.611,
+85.144 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01345695&quot;)
+L
+  .marker([
+ 53.219,
+6.5665 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01351792&quot;)
+L
+  .marker([
+ -15.383,
+35.333 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01356095&quot;)
+L
+  .marker([
+ 39.777,
+30.521 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01356979&quot;)
+L
+  .marker([
+ 38.982,
+-94.671 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01358162&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01363765&quot;)
+L
+  .marker([
+ 34.342,
+108.94 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01371916&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01376843&quot;)
+L
+  .marker([
+ 12.972,
+77.595 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01378312&quot;)
+L
+  .marker([
+ 34.198,
+-119.18 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01379066&quot;)
+L
+  .marker([
+ 34.275,
+-119.23 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01379066&quot;)
+L
+  .marker([
+ 48.917,
+  38.4 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01380119&quot;)
+L
+  .marker([
+  -16.5,
+-68.15 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01380301&quot;)
+L
+  .marker([
+ 38.985,
+-77.095 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01381757&quot;)
+L
+  .marker([
+  12.65,
+    -8 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01381757&quot;)
+L
+  .marker([
+ 41.062,
+16.926 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+ 45.585,
+9.2744 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+ 45.542,
+10.212 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+ 44.406,
+8.9463 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+ 45.465,
+9.1859 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+ 41.903,
+12.496 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01390987&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01392911&quot;)
+L
+  .marker([
+ -41.401,
+147.13 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01392911&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01397604&quot;)
+L
+  .marker([
+     23,
+120.23 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01398618&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01398618&quot;)
+L
+  .marker([
+ 32.833,
+-117.27 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 34.052,
+-118.24 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 32.716,
+-117.16 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 37.775,
+-122.42 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 33.836,
+-118.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 39.729,
+-104.83 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 39.739,
+-104.99 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 25.762,
+-80.192 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 41.878,
+-87.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+  42.36,
+-71.059 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 42.331,
+-83.046 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 51.552,
+-0.15883 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 40.736,
+-74.172 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 40.837,
+-73.865 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 35.913,
+-79.056 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 35.994,
+-78.899 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 32.777,
+-96.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+  29.76,
+-95.37 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 47.606,
+-122.33 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -24.658,
+25.912 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -24.658,
+25.912 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -30.035,
+-51.218 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -23.551,
+-46.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 18.533,
+-72.333 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 18.533,
+-72.333 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -0.3689,
+35.286 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 0.51667,
+35.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -0.091702,
+34.768 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -15.786,
+35.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -13.983,
+33.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 18.706,
+98.982 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ 13.361,
+100.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -17.864,
+ 31.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01404312&quot;)
+L
+  .marker([
+ -0.70155,
+ 10.24 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01417988&quot;)
+L
+  .marker([
+ -19.833,
+ 34.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01417988&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01417988&quot;)
+L
+  .marker([
+ 59.437,
+24.754 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 58.378,
+26.729 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 25.033,
+121.57 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 24.806,
+121.25 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424501&quot;)
+L
+  .marker([
+ 58.378,
+26.729 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+  56.95,
+24.105 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 55.935,
+23.314 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 54.687,
+ 25.28 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+     47,
+28.917 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 14.299,
+120.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 14.555,
+121.02 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 14.676,
+121.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 14.676,
+121.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ -26.86,
+26.632 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424670&quot;)
+L
+  .marker([
+ 53.408,
+-2.9916 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01424826&quot;)
+L
+  .marker([
+ 8.5414,
+39.269 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01433796&quot;)
+L
+  .marker([
+ 8.5414,
+39.269 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01433796&quot;)
+L
+  .marker([
+ 25.857,
+ 79.12 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01433796&quot;)
+L
+  .marker([
+  8.587,
+39.123 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01433796&quot;)
+L
+  .marker([
+ 8.6667,
+39.433 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01433796&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01442428&quot;)
+L
+  .marker([
+ 18.706,
+98.982 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01442428&quot;)
+L
+  .marker([
+ 13.862,
+100.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01442428&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01456845&quot;)
+L
+  .marker([
+ -29.516,
+ 28.59 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01459120&quot;)
+L
+  .marker([
+ 54.687,
+ 25.28 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01464762&quot;)
+L
+  .marker([
+ 64.547,
+ 40.56 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01464762&quot;)
+L
+  .marker([
+ 55.756,
+37.617 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01464762&quot;)
+L
+  .marker([
+ 48.745,
+2.4014 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01464762&quot;)
+L
+  .marker([
+ 59.934,
+30.335 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01464762&quot;)
+L
+  .marker([
+  27.53,
+68.758 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01471977&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01479972&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01497769&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -26.86,
+26.632 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -26.006,
+28.211 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -6.4333,
+  38.9 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+   -8.9,
+ 33.45 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01498419&quot;)
+L
+  .marker([
+ -26.178,
+28.346 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01516203&quot;)
+L
+  .marker([
+ 52.794,
+7.2368 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01521364&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01525134&quot;)
+L
+  .marker([
+ 0.31361,
+32.581 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01525134&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01530568&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01539005&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01545661&quot;)
+L
+  .marker([
+ -29.859,
+31.022 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01554384&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01554384&quot;)
+L
+  .marker([
+ -15.417,
+28.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01554384&quot;)
+L
+  .marker([
+ -17.864,
+ 31.03 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01554384&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01560078&quot;)
+L
+  .marker([
+ 37.775,
+-122.42 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01571414&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01571414&quot;)
+L
+  .marker([
+ 39.961,
+-82.999 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01571414&quot;)
+L
+  .marker([
+ 36.163,
+-86.782 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01571414&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01571739&quot;)
+L
+  .marker([
+ 32.716,
+-117.16 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01574638&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01574638&quot;)
+L
+  .marker([
+ 35.913,
+-79.056 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01574638&quot;)
+L
+  .marker([
+ 36.163,
+-86.782 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01574638&quot;)
+L
+  .marker([
+ -0.61333,
+30.658 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01579214&quot;)
+L
+  .marker([
+  23.81,
+90.413 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01580007&quot;)
+L
+  .marker([
+ 37.775,
+-122.42 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 39.739,
+-104.99 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 38.907,
+-77.037 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 40.713,
+-74.006 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 35.994,
+-78.899 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 36.163,
+-86.782 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 32.755,
+-97.331 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 29.424,
+-98.494 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 29.424,
+-98.494 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 22.396,
+114.11 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ -26.249,
+27.854 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01582711&quot;)
+L
+  .marker([
+  23.81,
+90.413 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01583972&quot;)
+L
+  .marker([
+  52.67,
+8.9697 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01585532&quot;)
+L
+  .marker([
+ 38.954,
+-94.734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01585636&quot;)
+L
+  .marker([
+  52.67,
+8.9697 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01587677&quot;)
+L
+  .marker([
+ -4.3566,
+15.318 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01589289&quot;)
+L
+  .marker([
+ 38.954,
+-94.734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01599897&quot;)
+L
+  .marker([
+ -30.035,
+-51.218 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -22.907,
+-43.173 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -23.551,
+-46.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 11.545,
+104.89 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 39.904,
+116.41 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 28.228,
+112.94 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 29.563,
+106.55 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 26.075,
+ 119.3 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 36.651,
+117.12 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+  32.06,
+ 118.8 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+  31.23,
+121.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 59.402,
+27.288 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 59.437,
+24.754 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 8.9806,
+38.758 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+   12.6,
+37.467 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 41.717,
+44.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+  35.18,
+129.08 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 35.871,
+ 128.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+  35.16,
+126.85 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 35.461,
+128.21 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 25.687,
+-100.32 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -12.046,
+-77.043 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 14.676,
+121.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 64.547,
+ 40.56 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 56.839,
+60.606 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 55.756,
+37.617 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 55.008,
+82.936 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 48.745,
+2.4014 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 59.934,
+30.335 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -33.724,
+18.956 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -37.95,
+   145 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ -30.456,
+18.419 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 24.052,
+120.52 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 25.017,
+121.46 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 24.148,
+120.67 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+     23,
+120.23 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 13.862,
+100.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 39.979,
+32.871 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 48.016,
+37.803 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+  50.45,
+30.523 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 49.554,
+25.595 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01600963&quot;)
+L
+  .marker([
+ 40.532,
+-97.599 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01608685&quot;)
+L
+  .marker([
+ 45.703,
+4.8247 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01611844&quot;)
+L
+  .marker([
+ 43.297,
+-2.9862 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+  43.01,
+-7.5568 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+  42.43,
+-8.6446 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 42.878,
+-8.5448 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+ 42.241,
+-8.7207 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01631266&quot;)
+L
+  .marker([
+   -6.8,
+39.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01635153&quot;)
+L
+  .marker([
+ -33.958,
+  25.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -26.188,
+28.321 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -25.746,
+28.188 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -25.746,
+28.188 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -25.746,
+28.188 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+ -33.724,
+18.956 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01642888&quot;)
+L
+  .marker([
+  47.92,
+106.92 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01657656&quot;)
+L
+  .marker([
+ 51.054,
+3.7174 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01669096&quot;)
+L
+  .marker([
+ 38.982,
+-94.671 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01674218&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01683773&quot;)
+L
+  .marker([
+ 33.521,
+-86.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01683773&quot;)
+L
+  .marker([
+ 42.886,
+-78.878 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01690403&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01691534&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01691534&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01693224&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01693224&quot;)
+L
+  .marker([
+ 55.676,
+12.568 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01694108&quot;)
+L
+  .marker([
+ 55.676,
+12.568 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01694108&quot;)
+L
+  .marker([
+ 55.496,
+9.4731 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01694108&quot;)
+L
+  .marker([
+ 10.823,
+106.63 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01705041&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01710397&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01710397&quot;)
+L
+  .marker([
+ 33.521,
+-86.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01722396&quot;)
+L
+  .marker([
+ 51.813,
+5.8372 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01727895&quot;)
+L
+  .marker([
+ 53.219,
+6.5665 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01730664&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01742364&quot;)
+L
+  .marker([
+ 53.132,
+23.169 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01748279&quot;)
+L
+  .marker([
+  52.67,
+8.9697 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01748357&quot;)
+L
+  .marker([
+ 38.994,
+-1.8585 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 38.879,
+-6.9707 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 41.385,
+2.1734 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 43.263,
+-2.935 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 43.362,
+-8.4115 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 37.888,
+-4.7794 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 37.177,
+-3.5986 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 40.417,
+-3.7038 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 40.417,
+-3.7038 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 40.417,
+-3.7038 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 40.417,
+-3.7038 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 37.992,
+-1.1307 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 36.721,
+-4.4213 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 42.813,
+-1.6458 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 43.462,
+ -3.81 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 37.389,
+-5.9845 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+  39.47,
+-0.37629 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01761201&quot;)
+L
+  .marker([
+ 40.811,
+-96.68 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01768273&quot;)
+L
+  .marker([
+ 37.394,
+126.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 36.911,
+127.84 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 35.824,
+127.15 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.736,
+128.18 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.456,
+126.71 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01778062&quot;)
+L
+  .marker([
+ -33.724,
+18.956 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -33.958,
+  25.6 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -25.746,
+28.188 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+ -25.746,
+28.188 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01779102&quot;)
+L
+  .marker([
+  -33.9,
+18.633 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ -26.204,
+28.047 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ -6.4333,
+  38.9 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+   -8.9,
+ 33.45 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ -3.3349,
+ 37.34 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01785186&quot;)
+L
+  .marker([
+ 13.729,
+100.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01800487&quot;)
+L
+  .marker([
+ -6.9149,
+107.61 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01802502&quot;)
+L
+  .marker([
+ 28.614,
+77.209 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01805258&quot;)
+L
+  .marker([
+ 40.811,
+-96.68 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01828827&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01829490&quot;)
+L
+  .marker([
+ 33.521,
+-86.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01829490&quot;)
+L
+  .marker([
+ 40.811,
+-96.68 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01830439&quot;)
+L
+  .marker([
+ 53.219,
+6.5665 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01832987&quot;)
+L
+  .marker([
+ 15.501,
+ 32.56 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01841541&quot;)
+L
+  .marker([
+ 15.282,
+108.77 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01850043&quot;)
+L
+  .marker([
+ 6.6666,
+-1.6163 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01853657&quot;)
+L
+  .marker([
+ 14.299,
+120.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01856634&quot;)
+L
+  .marker([
+ -30.456,
+18.419 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01856634&quot;)
+L
+  .marker([
+ 14.299,
+120.96 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01859923&quot;)
+L
+  .marker([
+ 14.676,
+121.04 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01859923&quot;)
+L
+  .marker([
+ -30.456,
+18.419 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01859923&quot;)
+L
+  .marker([
+ -1.0625,
+34.471 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01864603&quot;)
+L
+  .marker([
+ 1.0688,
+34.182 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01864603&quot;)
+L
+  .marker([
+ -0.55049,
+30.574 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01864603&quot;)
+L
+  .marker([
+ -34.04,
+18.678 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01865487&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01865487&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01866579&quot;)
+L
+  .marker([
+ 41.499,
+-81.694 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01874314&quot;)
+L
+  .marker([
+ 23.635,
+-102.55 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01875952&quot;)
+L
+  .marker([
+ 19.433,
+-99.133 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01875952&quot;)
+L
+  .marker([
+ 51.752,
+-1.2577 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01879163&quot;)
+L
+  .marker([
+ 33.521,
+-86.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01879163&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01916876&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01916876&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01927159&quot;)
+L
+  .marker([
+  52.52,
+13.405 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01928823&quot;)
+L
+  .marker([
+ 3.4206,
+-76.522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01945905&quot;)
+L
+  .marker([
+ 30.733,
+76.779 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01955824&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01967134&quot;)
+L
+  .marker([
+ 45.639,
+-122.66 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT01997047&quot;)
+L
+  .marker([
+  46.52,
+6.6336 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02013245&quot;)
+L
+  .marker([
+ -29.822,
+27.239 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02027441&quot;)
+L
+  .marker([
+ -30.15,
+27.467 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02027441&quot;)
+L
+  .marker([
+ -29.822,
+27.239 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02027519&quot;)
+L
+  .marker([
+ -30.15,
+27.467 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02027519&quot;)
+L
+  .marker([
+ -15.417,
+28.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02043067&quot;)
+L
+  .marker([
+ -22.91,
+-47.063 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02043314&quot;)
+L
+  .marker([
+ -15.417,
+28.283 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02053129&quot;)
+L
+  .marker([
+ 59.236,
+17.982 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02066428&quot;)
+L
+  .marker([
+ 41.447,
+ 2.245 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02076139&quot;)
+L
+  .marker([
+ 40.183,
+44.517 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02082340&quot;)
+L
+  .marker([
+ 42.263,
+-71.802 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02109874&quot;)
+L
+  .marker([
+ 51.813,
+5.8372 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02114255&quot;)
+L
+  .marker([
+ 48.857,
+2.3522 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02115854&quot;)
+L
+  .marker([
+ -13.983,
+33.783 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02127983&quot;)
+L
+  .marker([
+ 37.567,
+126.98 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02128308&quot;)
+L
+  .marker([
+   53.9,
+27.567 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02169141&quot;)
+L
+  .marker([
+ 19.076,
+72.878 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02170441&quot;)
+L
+  .marker([
+     47,
+28.917 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02170441&quot;)
+L
+  .marker([
+ -33.925,
+18.424 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02170441&quot;)
+L
+  .marker([
+ 51.813,
+5.8372 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02175420&quot;)
+L
+  .marker([
+ 40.811,
+-96.68 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02216331&quot;)
+L
+  .marker([
+  39.29,
+-76.612 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02252198&quot;)
+L
+  .marker([
+ 32.777,
+-96.797 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02256267&quot;)
+L
+  .marker([
+ 33.426,
+-111.94 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02286635&quot;)
+L
+  .marker([
+ 38.042,
+114.51 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 35.303,
+113.93 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 30.593,
+114.31 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 28.683,
+115.86 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 41.806,
+123.43 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 43.826,
+87.617 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 39.904,
+116.41 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 29.563,
+106.55 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+  31.23,
+121.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+  31.23,
+121.47 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 22.543,
+114.06 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+L
+  .marker([
+ 39.084,
+ 117.2 
+])
+  .addTo( map )
+  .bindPopup(&quot;NCT02313610&quot;)
+    
+    
+    
+    
+    if (spec.circle2){
+      for (var c in spec.circle2){
+        var circle = L.circle(c.center, c.radius, c.opts)
+         .addTo(map);
+      }
+    }
+    
+    
+    
+    
+    
+   
+   
+   
+&lt;/script&gt;
+    
+    &lt;script&gt;&lt;/script&gt;    
+  &lt;/body&gt;
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  leaflet  ' id='iframe-charta6193b2e76b6'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
