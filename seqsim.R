@@ -67,6 +67,12 @@ for (d in 1:dim(dt)[1]){
 
 }
 
+## Adjacency list to pairs fast methods
+
+dt <- read.csv("drugtarget.csv",header=TRUE)
+d <- dt$Drugs
+s <- strsplit(as.character(d), ';')
+dft <- data.frame(drugs=unlist(s), proteins=rep(dt$UniProt.ID, sapply(s, FUN=length)))
 
 write.csv(dtf,"drugtargetbinary.csv")
 write.csv(d,"sequencesim.csv")
